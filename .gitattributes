@@ -1,7 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=auto
-import React from 'react';
-import { ComposedChart, Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const AstonMartinAnalysis = () => {
   const data = [
@@ -19,36 +16,4 @@ const AstonMartinAnalysis = () => {
     { quarter: "2023 Q4", stock_price: 98.50, f1_points: 40, revenue: 358.4 }
   ];
 
-  return (
-    <div className="p-4">
-      <div className="h-96 mb-8">
-        <h3 className="text-lg font-bold mb-2">Stock Price vs F1 Performance</h3>
-        <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart data={data}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="quarter" angle={-45} textAnchor="end" height={60} />
-            <YAxis yAxisId="left" />
-            <YAxis yAxisId="right" orientation="right" />
-            <Tooltip />
-            <Legend />
-            <Bar yAxisId="left" dataKey="f1_points" fill="#006F62" name="F1 Points" />
-            <Line yAxisId="right" type="monotone" dataKey="stock_price" stroke="#00D2BE" name="Stock Price ($)" />
-          </ComposedChart>
-        </ResponsiveContainer>
-      </div>
-
-      <div className="mt-8 p-4 bg-gray-100 rounded">
-        <h3 className="text-lg font-bold mb-2">Key Findings:</h3>
-        <ul className="list-disc pl-5">
-          <li className="mb-2">2022 saw significant decline (-74.9%) despite increased revenue</li>
-          <li className="mb-2">2023 F1 performance improved dramatically (280 points vs 55 in 2022)</li>
-          <li className="mb-2">Recent stock recovery in Q4 2023 ($98.50) despite lower F1 points</li>
-          <li className="mb-2">Revenue grew 42.4% from 2021 (£245.5M) to 2023 (£349.5M)</li>
-          <li className="mb-2">Stock shows recovering trend despite negative correlation (-0.428) with F1 points</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-export default AstonMartinAnalysis;
+ 
