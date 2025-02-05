@@ -16,4 +16,66 @@ const AstonMartinAnalysis = () => {
     { quarter: "2023 Q4", stock_price: 98.50, f1_points: 40, revenue: 358.4 }
   ];
 
- 
+ const FerrariAnalysis = () => {
+  const data = [
+    {
+      year: 2018,
+      constructors_position: 2,
+      race_wins: 6,
+      points: 571,
+      avg_stock_price: 121.34,
+      stock_growth: 13.8,
+      revenue_millions: 3.4,
+      f1_revenue_percentage: 15.1
+    },
+    {
+      year: 2019,
+      constructors_position: 2,
+      race_wins: 3,
+      points: 504,
+      avg_stock_price: 153.67,
+      stock_growth: 26.6,
+      revenue_millions: 3.8,
+      f1_revenue_percentage: 14.8
+    },
+    {
+      year: 2020,
+      constructors_position: 6,
+      race_wins: 0,
+      points: 131,
+      avg_stock_price: 176.89,
+      stock_growth: 15.1,
+      revenue_millions: 3.0,
+      f1_revenue_percentage: 13.2
+    },
+    {
+      year: 2021,
+      constructors_position: 3,
+      race_wins: 0,
+      points: 323.5,
+      avg_stock_price: 217.65,
+      stock_growth: 23.1,
+      revenue_millions: 4.2,
+      f1_revenue_percentage: 13.9
+    },
+    {
+      year: 2022,
+      constructors_position: 2,
+      race_wins: 4,
+      points: 554,
+      avg_stock_price: 201.12,
+      stock_growth: -7.6,
+      revenue_millions: 5.1,
+      f1_revenue_percentage: 14.3
+    },
+    {
+      year: 2023,
+      constructors_position: 3,
+      race_wins: 1,
+      points: 406,
+      avg_stock_price: 315.45,
+      stock_growth: 56.8,
+      revenue_millions: 5.6,
+      f1_revenue_percentage: 14.7
+    }
+  ];
