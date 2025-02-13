@@ -1,0 +1,41 @@
+season,team,position,points,wins
+2020,Mercedes,1,573,13
+2020,Red Bull,2,319,2
+2020,McLaren,3,202,0
+2020,Racing Point,4,195,1
+2020,Renault,5,181,0
+2020,Ferrari,6,131,0
+2020,AlphaTauri,7,107,1
+2020,Alfa Romeo,8,8,0
+2020,Haas F1 Team,9,3,0
+2020,Williams,10,0,0
+2021,Mercedes,1,613.5,9
+2021,Red Bull,2,585.5,11
+2021,Ferrari,3,323.5,0
+2021,McLaren,4,275,1
+2021,Alpine F1 Team,5,155,1
+2021,AlphaTauri,6,142,0
+2021,Aston Martin,7,77,0
+2021,Williams,8,23,0
+2021,Alfa Romeo,9,13,0
+2021,Haas F1 Team,10,0,0
+2022,Red Bull,1,759,17
+2022,Ferrari,2,554,4
+2022,Mercedes,3,515,1
+2022,Alpine F1 Team,4,173,0
+2022,McLaren,5,159,0
+2022,Alfa Romeo,6,55,0
+2022,Aston Martin,7,55,0
+2022,Haas F1 Team,8,37,0
+2022,AlphaTauri,9,35,0
+2022,Williams,10,8,0
+2023,Red Bull,1,860,21
+2023,Mercedes,2,409,0
+2023,Ferrari,3,406,1
+2023,McLaren,4,302,0
+2023,Aston Martin,5,280,0
+2023,Alpine F1 Team,6,120,0
+2023,Williams,7,28,0
+2023,AlphaTauri,8,25,0
+2023,Alfa Romeo,9,16,0
+2023,Haas F1 Team,10,12,0
