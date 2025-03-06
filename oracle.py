@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime
 
 # Function to get race results from Ergast API
-def get_race_results(season_start=2020, season_end=2023):
+def get_race_results(season_start=2020, season_end=2024):
     results = []
     for year in range(season_start, season_end + 1):
         url = f"http://ergast.com/api/f1/{year}/constructorStandings.json"
@@ -56,7 +56,7 @@ def get_max_championship_dates():
 if __name__ == "__main__":
     # Fetch race results
     season_start = 2020
-    season_end = 2023
+    season_end = 2024
     df_race_results = get_race_results(season_start, season_end)
     
     # Get Red Bull results specifically
@@ -128,7 +128,7 @@ if __name__ == "__main__":
         except (ValueError, KeyError):
             print(f"Warning: Could not find stock data near {champ_date.strftime('%Y-%m-%d')}")
     
-    # Calculate 30-day rolling volatility for the second subplot
+    # Calculate 5-day rolling volatility for the second subplot
     # Make sure we're working with a Series for the volatility calculation
     if isinstance(oracle_returns, pd.DataFrame):
         returns_series = oracle_returns.iloc[:, 0]  # Take first column if it's a DataFrame
@@ -136,10 +136,10 @@ if __name__ == "__main__":
         returns_series = oracle_returns
         
     # Calculate volatility as rolling standard deviation
-    volatility = returns_series.rolling(window=30).std() * np.sqrt(252)  # Annualized
+    volatility = returns_series.rolling(window=5).std() * np.sqrt(252)  # Annualized
     
     # Plot volatility in second subplot
-    ax2.plot(volatility.index, volatility.values, color='darkblue', label='30-Day Rolling Volatility')
+    ax2.plot(volatility.index, volatility.values, color='darkblue', label='5-Day Rolling Volatility')
     ax2.fill_between(volatility.index, 0, volatility.values, color='darkblue', alpha=0.2)
     
     # Add grid and legends
@@ -181,6 +181,6 @@ if __name__ == "__main__":
     
     print("\nOracle Stock Performance Analysis:")
     print(f"Average Daily Return Before Red Bull Partnership (2020-2021): {pre_partnership.mean() * 100:.4f}%")
-    print(f"Average Daily Return During Red Bull Partnership (2022-2023): {during_partnership.mean() * 100:.4f}%")
+    print(f"Average Daily Return During Red Bull Partnership (2022-2024): {during_partnership.mean() * 100:.4f}%")
     print(f"Volatility Before Partnership: {pre_partnership.std() * np.sqrt(252) * 100:.4f}%")
     print(f"Volatility During Partnership: {during_partnership.std() * np.sqrt(252) * 100:.4f}%")
