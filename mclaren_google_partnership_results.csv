@@ -1,0 +1,70 @@
+date,race,team,position,points,wins,year
+2022-03-20,Bahrain Grand Prix,McLaren,9,0.0,0,2022
+2022-03-27,Saudi Arabian Grand Prix,McLaren,8,6.0,0,2022
+2022-04-10,Australian Grand Prix,McLaren,4,24.0,0,2022
+2022-04-24,Emilia Romagna Grand Prix,McLaren,4,46.0,0,2022
+2022-05-08,Miami Grand Prix,McLaren,4,46.0,0,2022
+2022-05-22,Spanish Grand Prix,McLaren,4,50.0,0,2022
+2022-05-29,Monaco Grand Prix,McLaren,4,59.0,0,2022
+2022-06-12,Azerbaijan Grand Prix,McLaren,4,65.0,0,2022
+2022-06-19,Canadian Grand Prix,McLaren,4,65.0,0,2022
+2022-07-03,British Grand Prix,McLaren,4,73.0,0,2022
+2022-07-10,Austrian Grand Prix,McLaren,4,81.0,0,2022
+2022-07-24,French Grand Prix,McLaren,5,89.0,0,2022
+2022-07-31,Hungarian Grand Prix,McLaren,5,95.0,0,2022
+2022-08-28,Belgian Grand Prix,McLaren,5,95.0,0,2022
+2022-09-04,Dutch Grand Prix,McLaren,5,101.0,0,2022
+2022-09-11,Italian Grand Prix,McLaren,5,107.0,0,2022
+2022-10-02,Singapore Grand Prix,McLaren,4,129.0,0,2022
+2022-10-09,Japanese Grand Prix,McLaren,5,130.0,0,2022
+2022-10-23,United States Grand Prix,McLaren,5,138.0,0,2022
+2022-10-30,Mexico City Grand Prix,McLaren,5,146.0,0,2022
+2022-11-13,São Paulo Grand Prix,McLaren,5,148.0,0,2022
+2022-11-20,Abu Dhabi Grand Prix,McLaren,5,159.0,0,2022
+2023-03-05,Bahrain Grand Prix,McLaren,10,0.0,0,2023
+2023-03-19,Saudi Arabian Grand Prix,McLaren,10,0.0,0,2023
+2023-04-02,Australian Grand Prix,McLaren,5,12.0,0,2023
+2023-04-30,Azerbaijan Grand Prix,McLaren,5,14.0,0,2023
+2023-05-07,Miami Grand Prix,McLaren,5,14.0,0,2023
+2023-05-28,Monaco Grand Prix,McLaren,6,17.0,0,2023
+2023-06-04,Spanish Grand Prix,McLaren,6,17.0,0,2023
+2023-06-18,Canadian Grand Prix,McLaren,6,17.0,0,2023
+2023-07-02,Austrian Grand Prix,McLaren,6,29.0,0,2023
+2023-07-09,British Grand Prix,McLaren,5,59.0,0,2023
+2023-07-23,Hungarian Grand Prix,McLaren,5,87.0,0,2023
+2023-07-30,Belgian Grand Prix,McLaren,5,103.0,0,2023
+2023-08-27,Dutch Grand Prix,McLaren,5,111.0,0,2023
+2023-09-03,Italian Grand Prix,McLaren,5,115.0,0,2023
+2023-09-17,Singapore Grand Prix,McLaren,5,139.0,0,2023
+2023-09-24,Japanese Grand Prix,McLaren,5,172.0,0,2023
+2023-10-08,Qatar Grand Prix,McLaren,5,219.0,0,2023
+2023-10-22,United States Grand Prix,McLaren,4,242.0,0,2023
+2023-10-29,Mexico City Grand Prix,McLaren,4,256.0,0,2023
+2023-11-05,São Paulo Grand Prix,McLaren,4,282.0,0,2023
+2023-11-19,Las Vegas Grand Prix,McLaren,4,284.0,0,2023
+2023-11-26,Abu Dhabi Grand Prix,McLaren,4,302.0,0,2023
+2024-03-02,Bahrain Grand Prix,McLaren,4,12.0,0,2024
+2024-03-09,Saudi Arabian Grand Prix,McLaren,3,28.0,0,2024
+2024-03-24,Australian Grand Prix,McLaren,3,55.0,0,2024
+2024-04-07,Japanese Grand Prix,McLaren,3,69.0,0,2024
+2024-04-21,Chinese Grand Prix,McLaren,3,96.0,0,2024
+2024-05-05,Miami Grand Prix,McLaren,3,124.0,1,2024
+2024-05-19,Emilia Romagna Grand Prix,McLaren,3,154.0,1,2024
+2024-05-26,Monaco Grand Prix,McLaren,3,184.0,1,2024
+2024-06-09,Canadian Grand Prix,McLaren,3,212.0,1,2024
+2024-06-23,Spanish Grand Prix,McLaren,3,237.0,1,2024
+2024-06-30,Austrian Grand Prix,McLaren,3,268.0,1,2024
+2024-07-07,British Grand Prix,McLaren,3,295.0,1,2024
+2024-07-21,Hungarian Grand Prix,McLaren,2,338.0,2,2024
+2024-07-28,Belgian Grand Prix,McLaren,2,366.0,2,2024
+2024-08-25,Dutch Grand Prix,McLaren,2,404.0,3,2024
+2024-09-01,Italian Grand Prix,McLaren,2,438.0,3,2024
+2024-09-15,Azerbaijan Grand Prix,McLaren,1,476.0,4,2024
+2024-09-22,Singapore Grand Prix,McLaren,1,516.0,5,2024
+2024-10-20,United States Grand Prix,McLaren,1,544.0,5,2024
+2024-10-27,Mexico City Grand Prix,McLaren,1,566.0,5,2024
+2024-11-03,São Paulo Grand Prix,McLaren,1,593.0,5,2024
+2024-11-23,Las Vegas Grand Prix,McLaren,1,608.0,5,2024
+2024-12-01,Qatar Grand Prix,McLaren,1,640.0,5,2024
+2024-12-08,Abu Dhabi Grand Prix,McLaren,1,666.0,6,2024
+2024-12-08,Abu Dhabi Grand Prix,McLaren,1,590.5,8,2024
